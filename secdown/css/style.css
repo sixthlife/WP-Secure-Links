@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;
+	padding:0;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	background-color:#ebeae8;
+    color: #616363;
+ 	margin:0 auto;
+	text-align: center;
+	}
+	
+#main{width:628px;
+	margin:0 auto;
+	text-align: left;
+	background-image:url(../images/bg_body.gif);
+	background-repeat:repeat-y;
+	background-color:#FFFFFF;
+	padding:20px 0px;
+	}
+.d_L{width:589px;
+	height:72px;
+	background-image:url(../images/d_L.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+	float:left;
+	padding-left:33px;
+	}
+.d_R{width:589px;
+	height:72px;
+	background-image:url(../images/d_R.gif);
+	background-repeat:no-repeat;
+	background-position:top right;
+	float:left;
+	}
+.d_M{width:589px;
+	height:72px;
+	float:left;
+	background-image:url(../images/d_M.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+	background-color:#FFFFFF;
+	font-size:15px;
+	color:#3c3c3c;
+	font-weight:bold
+	}
+.d_M_p{width:538px;
+	height:57px;
+	padding-top:15px;
+	float:left;
+	background-image:url(../images/d_L_img.gif);
+	background-repeat:no-repeat;
+	padding-left:51px;
+	}
+.container{width:623px;
+	float:left;
+	}
+.containerText{width:600px;
+	
+	padding-left:22px;
+	margin-left: 10px;
+	list-style-type: none;
+	margin-top: 0px;
+	padding-top:  0px;
+	}
+	ul.containerText li{
+		padding-bottom: 20px;
+		border-bottom:1px solid #e5e5e5;
+	}
+
+.d_Img img{
+		border: none;
+	}
+#All_L{background-image:url(../images/P_M_B.gif);
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	width:570px;
+	padding-left:16px;
+	float:left;
+	padding-bottom:6px;
+	padding-top:15px;
+	}
+#P_M{
+	background-image:url(../images/P_M.gif);
+	background-color:#f7f7f7;
+	background-repeat:no-repeat;
+	background-position:top;
+	width:534px;
+	float:left;
+	padding:10px;
+	}	
+	
+#clear{clear:both;
+	height:1px;
+	font-size:1px;
+	}
+
+
+
+
+/*=============No Permisions=============*/
+
+#no_p{width:579px;
+	float:left;
+	padding-left:33px;
+	}
+ a{color:#034672;
+	text-decoration:none;}
+ a:hover{color:#0099FF;
+	text-decoration:none;}

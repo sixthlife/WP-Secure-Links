@@ -1,0 +1,58 @@
+Quick Install
+
+
+1. Locate secodown plugin folder inside purchased files.
+2. Use winzip to create an archive(.zip) of secodwn folder.
+3. Upload Zipped Plugin secdown.zip, Install and Activate.
+4. Create an "Unauthorized Access".
+5. Go to Settings => WP Secure Links Page and select the Unauthorized Access page. 
+6. Save the Settings. 
+
+
+Creating A Secure Link
+
+1. Create A Page or Edit an existing WordPress Page to add the Secure Download Links. 
+
+2. Use the "Slink" Short tag in Wordpress Editor to create a secure link. 
+
+
+[slink url=””]My Download File[/slink]
+
+where
+
+url - is Actual, Absolute Downloadable File URL.
+
+
+Optional Parameters Are
+
+class - css class
+
+id - css id
+
+name - Fake Name of File
+
+title - Title Tag 
+
+onclick - any custom javascript function you want add to secure link onclick event
+
+users - Single username whom you want to allow access to the file or multiple comma seperated usernames
+
+roles - Single user role whom you want to allow access to the file or multiple comma seperated user roles
+
+message = Message you want to show in place of secure link for users who do not have access to the secure download link. 
+
+
+Example With All Paramters (Allowing Access to 2 usernames only): 
+
+[slink url="http://wpsecurelinks.sixthlife.net/sec_files/sampledoc.doc"  name=”My Secret Download File” id=”afile” class=”linktext”  title=”A  Sample Download” onclick="myjavascriptfn(this);" users="firstuser,seconduser" message="Access to Subscribers"] My Download File [/slink]
+
+Example With All Paramters (Allowing Access to 2 userroles only): 
+
+[slink url="http://wpsecurelinks.sixthlife.net/sec_files/sampledoc.doc"  name=”My Secret Download File” id=”afile” class=”linktext”  title=”A  Sample Download” onclick="myjavascriptfn(this);" users="firstuser,seconduser" message="Access to Subscribers"] My Download File [/slink]
+
+3. Test Your Newly created Links by download it from your WordPress page. 
+
+
+Support
+
+Please contact me at support@sixthlife.net if you need more information or help. 
